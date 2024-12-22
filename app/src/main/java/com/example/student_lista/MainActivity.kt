@@ -29,7 +29,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            // Zamiast importować motyw z 'ui.theme', używamy MaterialTheme
+           
             MaterialTheme {
                 DogListApp()
             }
